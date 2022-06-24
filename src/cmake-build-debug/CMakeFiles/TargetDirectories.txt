@@ -1,0 +1,3 @@
+/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/CMakeFiles/3dFacade.dir
+/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

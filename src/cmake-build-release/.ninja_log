@@ -1,0 +1,10 @@
+# ninja log v5
+3	603	1652381404043927640	CMakeFiles/layout.dir/home/fiodccob/GEO2020/regularization/layout/3rd_party/DBSCAN/dbscan.cpp.o	95e3dee073837c2c
+3	10795	1652716700423220883	CMakeFiles/layout.dir/facadeModeling.cpp.o	2ce5b1b98818eedb
+15784	16438	1653230287662938436	layout	3566b8ad699506a1
+3	4261	1652381407699940886	CMakeFiles/layout.dir/backprojection.cpp.o	e06216f9262f58c
+6	13577	1653230284802920202	CMakeFiles/layout.dir/main.cpp.o	517c51bcaa2ada3b
+6	15784	1653230287010934280	CMakeFiles/layout.dir/reconstruction.cpp.o	6cec5f6ce8f4d2b
+3	1963	1652381405399932553	CMakeFiles/layout.dir/utils.cpp.o	2efaf887ea545819
+2	1756	1652381405195931813	CMakeFiles/layout.dir/home/fiodccob/GEO2020/regularization/layout/3rd_party/ETH3DFormatLoader/cameras.cc.o	fe74d8e5c6e91fe3
+3	1964	1652381405403932567	CMakeFiles/layout.dir/home/fiodccob/GEO2020/regularization/layout/3rd_party/ETH3DFormatLoader/images.cc.o	9fe534be3c77c551

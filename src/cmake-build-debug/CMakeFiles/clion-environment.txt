@@ -1,0 +1,3 @@
+ToolSet: 1.0 (local)Options: 
+
+Options:-DOpen3D_DIR:PATH=/home/fiodccob/open3d_install/lib/cmake/Open3D

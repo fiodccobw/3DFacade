@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3dFacade"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\open3d_install\;CMake Files\..\..\..\..\open3d_install\lib\;CMake Files\..\..\..\..\open3d_install\lib\cmake\;CMake Files\..\..\..\..\open3d_install\lib\cmake\Open3D\;CMake Files\..\..\..\Easy3D-main\;CMake Files\..\..\..\Easy3D-main\easy3d\;CMake Files\..\..\..\Easy3D-main\easy3d\build\;CMake Files\..\..\..\Easy3D-main\release\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dFacade">
+				<Option output="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/3dFacade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKWARD_HAS_UNWIND=1"/>
+					<Add option="-DBACKWARD_HAS_LIBUNWIND=0"/>
+					<Add option="-DBACKWARD_HAS_BACKTRACE=0"/>
+					<Add option="-DBACKWARD_HAS_BACKTRACE_SYMBOL=0"/>
+					<Add option="-DBACKWARD_HAS_DW=0"/>
+					<Add option="-DBACKWARD_HAS_BFD=0"/>
+					<Add option="-DBACKWARD_HAS_DWARF=0"/>
+					<Add option="-DELPP_FEATURE_ALL"/>
+					<Add option="-DELPP_STL_LOGGING"/>
+					<Add option="-DELPP_THREAD_SAFE"/>
+					<Add option="-DELPP_NO_DEFAULT_LOG_FILE"/>
+					<Add option="-DELPP_DISABLE_DEFAULT_CRASH_HANDLING"/>
+					<Add option="-DHAVE_EXECINFO"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DFMT_HEADER_ONLY=0"/>
+					<Add option="-DFMT_USE_WINDOWS_H=0"/>
+					<Add option="-DFMT_STRING_ALIAS=1"/>
+					<Add directory="/opt/gurobi951/linux64/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main/3rd_party/glew/include"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main/3rd_party/glfw/include"/>
+					<Add directory="/home/fiodccob/open3d_install/include"/>
+					<Add directory="/home/fiodccob/open3d_install/include/open3d/3rdparty"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dFacade"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3dFacade/fast">
+				<Option output="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/3dFacade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBACKWARD_HAS_UNWIND=1"/>
+					<Add option="-DBACKWARD_HAS_LIBUNWIND=0"/>
+					<Add option="-DBACKWARD_HAS_BACKTRACE=0"/>
+					<Add option="-DBACKWARD_HAS_BACKTRACE_SYMBOL=0"/>
+					<Add option="-DBACKWARD_HAS_DW=0"/>
+					<Add option="-DBACKWARD_HAS_BFD=0"/>
+					<Add option="-DBACKWARD_HAS_DWARF=0"/>
+					<Add option="-DELPP_FEATURE_ALL"/>
+					<Add option="-DELPP_STL_LOGGING"/>
+					<Add option="-DELPP_THREAD_SAFE"/>
+					<Add option="-DELPP_NO_DEFAULT_LOG_FILE"/>
+					<Add option="-DELPP_DISABLE_DEFAULT_CRASH_HANDLING"/>
+					<Add option="-DHAVE_EXECINFO"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add option="-DGLEW_NO_GLU"/>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=1"/>
+					<Add option="-DFMT_HEADER_ONLY=0"/>
+					<Add option="-DFMT_USE_WINDOWS_H=0"/>
+					<Add option="-DFMT_STRING_ALIAS=1"/>
+					<Add directory="/opt/gurobi951/linux64/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main/3rd_party/glew/include"/>
+					<Add directory="/home/fiodccob/GEO2020/Easy3D-main/3rd_party/glfw/include"/>
+					<Add directory="/home/fiodccob/open3d_install/include"/>
+					<Add directory="/home/fiodccob/open3d_install/include/open3d/3rdparty"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 3dFacade/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/DBSCAN/dbscan.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/DBSCAN/dbscan.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/ETH3DFormatLoader/cameras.cc">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/ETH3DFormatLoader/cameras.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/ETH3DFormatLoader/images.cc">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/3rd_party/ETH3DFormatLoader/images.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/backprojection.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/backprojection.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/facadeModeling.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/facadeModeling.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/main.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/reconstruction.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/reconstruction.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/utils.cpp">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/utils.h">
+			<Option target="3dFacade"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/FindGUROBI.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../open3d_install/lib/cmake/Open3D/Open3DConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\open3d_install\lib\cmake\Open3D\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../open3d_install/lib/cmake/Open3D/Open3DConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\open3d_install\lib\cmake\Open3D\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../open3d_install/lib/cmake/Open3D/Open3DTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\open3d_install\lib\cmake\Open3D\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../../open3d_install/lib/cmake/Open3D/Open3DTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\open3d_install\lib\cmake\Open3D\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../Easy3D-main/easy3d/build/Easy3DConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Easy3D-main\easy3d\build\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../Easy3D-main/easy3d/build/Easy3DConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Easy3D-main\easy3d\build\"/>
+		</Unit>
+		<Unit filename="/home/fiodccob/GEO2020/regularization/3DFacade/src/../../../Easy3D-main/release/Easy3DTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Easy3D-main\release\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

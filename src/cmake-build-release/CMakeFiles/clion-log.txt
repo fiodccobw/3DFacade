@@ -1,0 +1,22 @@
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DOpen3D_DIR:PATH=/home/fiodccob/open3d_install/lib/cmake/Open3D -G "CodeBlocks - Unix Makefiles" -S /home/fiodccob/GEO2020/regularization/3DFacade/src -B /home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-release
+-- Found GUROBI: /opt/gurobi951/linux64/include  
+-- Found GUROBI: debug;/opt/gurobi951/linux64/lib/libgurobi_c++.a;optimized;/opt/gurobi951/linux64/lib/libgurobi_c++.a;/opt/gurobi951/linux64/lib/libgurobi95.so  
+-- Build type: Release
+-- EASY3D_INCLUDE_DIRS: /home/fiodccob/GEO2020/Easy3D-main/easy3d
+-- EASY3D_LIBRARIES: easy3d::util;easy3d::core;easy3d::fileio;easy3d::kdtree;easy3d::algo;easy3d::renderer;easy3d::gui;easy3d::viewer
+-- EASY3D_CGAL_SUPPORT: FALSE (EASY3D was built without CGAL support)
+CMake Deprecation Warning at /home/fiodccob/open3d_install/lib/cmake/Open3D/Open3DConfig.cmake:18 (cmake_policy):
+  The OLD behavior for policy CMP0072 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (find_package)
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fiodccob/GEO2020/regularization/3DFacade/src/cmake-build-release
